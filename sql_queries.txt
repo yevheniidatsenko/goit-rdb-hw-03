@@ -1,0 +1,26 @@
+- Task 1
+1. SELECT * FROM products;
+2. SELECT name, phone FROM shippers;
+
+- Task2
+SELECT 
+avg(price) AS avg_price, 
+max(price) AS max_price, 
+min(price) AS min_price,
+FROM products;
+
+- Task3
+SELECT DISTINCT category_id, price
+FROM products
+ORDER BY price DESC
+LIMIT 10;
+
+- Task4
+SELECT COUNT(*) AS product_count
+FROM products
+WHERE price BETWEEN 20 AND 100;
+
+- Task5
+SELECT supplier_id, COUNT(*) AS product_count, AVG(price) AS average_price
+FROM products
+GROUP BY supplier_id
