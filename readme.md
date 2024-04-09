@@ -1,4 +1,4 @@
-## SQL Homework Description (English)
+## SQL Homework Description
 
 This document describes five SQL practice tasks:
 
