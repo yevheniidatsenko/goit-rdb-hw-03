@@ -1,4 +1,4 @@
-## SQL Homework Description
+## Data loading and SQL basics. DQL commands 
 
 This document describes five SQL practice tasks:
 
